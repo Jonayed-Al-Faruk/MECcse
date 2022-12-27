@@ -1,2 +1,0 @@
-# MECcse
-mec cse website

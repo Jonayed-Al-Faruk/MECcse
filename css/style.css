@@ -1,0 +1,149 @@
+
+/* This is headermain section */
+.headermain{
+    height: 200pxs;
+}
+
+.image_size{
+ height: 40%;
+ width: auto;
+}
+
+.item_align{
+    text-align: center;
+}
+
+.columnImage{
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 145px;
+ width: auto;
+ image-resolution: high;
+
+}
+
+.text-color-mec{
+    color: white;
+    font-weight: 700px;
+}
+/* mec animation */
+
+.typewriter {
+	width: 21.5ch;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #212121;
+	animation: cursor 1s step-start infinite, 
+    text 5s steps(18) alternate infinite;
+}
+
+@keyframes cursor {
+	0%, 100% { 
+    border-color: #212121; 
+  }
+}
+
+@keyframes text {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 21.5ch; 
+  }
+}
+
+
+
+/* time  */
+.container-1{
+   display: flex; 
+   justify-content: center;
+   font-family: 'alarm clock', sans-serif;
+   font-weight: bold;
+   align-items: center;
+   font-size: larger;
+   color: lime;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(9, 0, 0);
+}
+
+.small{
+    height: 450px;
+    width: auto;
+}
+
+
+
+.box{
+    background-color:rgb(183, 179, 179);
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 2px 3px 3px gray;
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+
+/*  Horigental Line line  */
+.line{
+    border-top: 5px solid green;
+}
+
+
+
+
+/* footer section */
+#footer{
+    
+    background-color: cadetblue;
+    height: 80px;
+   
+}
+
+
+/* fixed-nab  */
+.fixed-nab{
+    position: sticky;
+    z-index: 2;
+    top: 0;
+
+}
+
+
+/* overview section  */
+.overview{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+}
+
+
+/* head message */
+.mam{
+    height: 150px;
+    width: 250px;
+}
+
+.name-mam{
+text-align: center;
+font-weight: bolder;
+color: rgb(51, 11, 184);
+}
+
+/*date and time*/
+
+#day-date{
+    color:red;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+#date-time,#date-date{
+    color:rgb(179, 202, 28);
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 0px solid palevioletred;
+}
