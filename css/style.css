@@ -12,6 +12,9 @@
 .item_align{
     text-align: center;
 }
+.c2{
+   
+}
 
 .columnImage{
  background-repeat: no-repeat;
@@ -147,3 +150,24 @@ color: rgb(51, 11, 184);
     font-weight: bold;
     text-shadow: 2px 0px solid palevioletred;
 }
+.head{
+ 
+}
+
+@media only screen and (min-width:200px) and (max-width:567px){
+
+    .headermain{
+        width: 100%;
+    }
+    .c1{
+        height: 100%;
+        width: auto;
+    }
+    
+    .c2
+    {
+        height: 50%;
+    }
+}
+
+
